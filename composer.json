@@ -1,18 +1,27 @@
 {
     "name": "bekend/studikasusphpoop",
-    "description": "Belajar php with composer",
-    "require": {
-        "sebastian/object-reflector": "^2.0"
-    },
+    "description": "Belajar oop php composer",
+    "type": "library",
     "authors": [
         {
             "name": "Cahyo Fajar P",
             "email": "cahyofajar28@gmail.com"
         }
     ],
+    
+    "repositories": [
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/cahyofajarp/belajar-php-composer"
+        }
+    ],
+    "require": {
+    },
+
     "autoload" :{
         "psr-4": {
             "BekEnd\\" : "src/"
         }
     }
+    
 }
